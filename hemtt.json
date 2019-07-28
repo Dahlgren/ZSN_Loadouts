@@ -1,0 +1,11 @@
+{
+  "name": "ZluskeN Loadouts",
+  "prefix": "zsn",
+  "author": "ZluskeN",
+  "reuse_private_key": true,
+  "keyname": "bsl",
+  "files": [
+    "mod.cpp"
+  ],
+  "sigversion": 3
+}

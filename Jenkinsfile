@@ -18,7 +18,7 @@ pipeline {
                     bat 'copy %ZLUSKEN_PUBLIC_KEY% Keys'
                 }
 
-                bat 'build.bat' 
+                bat 'hemtt build --release' 
                 archiveArtifacts artifacts: '@zsn_loadouts/**/*'
             }
             post {
